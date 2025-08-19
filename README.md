@@ -46,36 +46,8 @@ export AZURE_DEVOPS_AUTH_METHOD=pat
 export AZURE_DEVOPS_PAT=your-token
 export AZURE_DEVOPS_DEFAULT_PROJECT=your-project
 
-Running the AI Agent
 
-Open AI Assistant Chat in IntelliJ
-
-Type / to see available MCP tools
-
-Example commands:
-
-/start_browser chrome
-/navigate https://google.com
-/list_projects
-/jira_search_issues assigned to me
-
-Troubleshooting
-
-Authentication Errors → Check tokens, permissions, and environment variables
-
-Connection Issues → Verify network connectivity and server URLs
-
-Browser Automation Failures → Ensure browser drivers are installed and in PATH
-
-Best Practices
-
-Store credentials securely using environment variables
-
-Use least privilege principle for tokens
-
-Clean up browser sessions and connections after use
-
-Share MCP configuration without secrets for team collaboration
+...............
 
 License
 
