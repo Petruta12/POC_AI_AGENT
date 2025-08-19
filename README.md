@@ -23,8 +23,6 @@ Tools: start_browser, navigate, find_element, click_element, send_keys, take_scr
 Azure DevOps MCP – CI/CD and work item automation
 Tools: list_projects, create_work_item, update_work_item, list_repositories, queue_build, create_pull_request
 
-Atlassian MCP – Jira and Confluence automation
-Tools: jira_search_issues, jira_create_issue, jira_update_issue, jira_add_comment, jira_list_projects, confluence_search, confluence_create_page, confluence_update_page, confluence_list_spaces
 
 Setup
 Add MCP Server Configuration
@@ -47,12 +45,6 @@ export AZURE_DEVOPS_ORG_URL=https://dev.azure.com/your-org
 export AZURE_DEVOPS_AUTH_METHOD=pat
 export AZURE_DEVOPS_PAT=your-token
 export AZURE_DEVOPS_DEFAULT_PROJECT=your-project
-
-# Atlassian
-export ATLASSIAN_CONFLUENCE_URL=https://your-company.atlassian.net/wiki
-export ATLASSIAN_JIRA_URL=https://your-company.atlassian.net
-export ATLASSIAN_USERNAME=your.email@company.com
-export ATLASSIAN_API_TOKEN=your-token
 
 Running the AI Agent
 
